@@ -1,0 +1,32 @@
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    table-layout: fixed;
+    min-width: 250px;
+    min-height: 500px;
+    background-color: GhostWhite;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    min-width: 62.5px;
+}
+
+th {
+    font-size: larger;
+    font-weight: normal;
+    min-width = 0px;
+}
+
+td:hover {
+    background-color: Gray;
+}
+
+td:active {
+    background-color: DimGray;
+}
